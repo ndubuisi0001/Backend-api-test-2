@@ -1,0 +1,40 @@
+[
+{
+ "id":1,
+ "name":"fruitjuice",
+ "flavour":"pineapple",
+ "color": "light green"
+},
+{
+    "id":2,
+    "name":"youghort",
+    "flavour":"vanilla",
+    "color":"pink"
+},
+{
+    "id":3,
+    "name":"alchohol",
+    "flavour":"milk",
+    "color":"white"
+
+},
+{
+    "id":4,
+    "name":"carbonated drink",
+    "flavour":"orange",
+    "color":"orange"
+},
+{
+    "id":5,
+    "name":"wine",
+    "flavour":"apple",
+    "color":"light orange"
+},
+{
+    "id":6, 
+    "name":"cyrup boos (spirited)",
+    "flavour":"chocolate/spirit",
+    "color":"dark brown"
+}
+
+]

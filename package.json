@@ -1,0 +1,15 @@
+{
+  "name": "backend-api-test-2",
+  "version": "1.0.0",
+  "description": "This project is all about a second try on the project my tutor gave me, i am trying to see  if i can be able to create a backend project on my own uniquely following my late project but making is as well unique. This project would be specified on a fictional product of drinks and many types on drinks classified under it. Am creating an API that can tell you the types of drink i have and contents in it",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

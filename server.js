@@ -1,0 +1,10 @@
+const express = require ("express");
+const app = express();
+app.use(express.json());
+const drinks = require("./data.json");
+app.get("/",(req, res) => { res.json ({ message: "CHECK AGAIN 'FOOL'"});});
+app.get("/api/drinks", (req, res) => {res.json(drinks);});
+app.get("/api/drinks/:id", (req, res) => { const id = Number(req.params.id); const drink = drinks.find((drink) => drink.id === id);
+if (!drink) {return res.status(404).json({ message:"drinks not found"});}res.json(drink);});
+app.use((req, res) => {res.status (404).json ({message: "PLEASE FIND ANOTHER ROUTE, THIS ROUTE DOESN'T EXIST"});});
+app.listen (3000, () => { console.log("server running on http://localhost:3000"); });
