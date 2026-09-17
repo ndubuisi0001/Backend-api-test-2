@@ -3,7 +3,8 @@
  "id":1,
  "name":"fruitjuice",
  "flavour":"pineapple",
- "color": "light green"
+ "color": "light green",
+ "quantity": "200"
 },
 {
     "id":2,
